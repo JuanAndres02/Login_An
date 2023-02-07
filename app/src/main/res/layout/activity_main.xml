@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#D495E6"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Inicia sesion con tus datos:"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/iconousuario"
+        android:layout_gravity="center"
+        />
+
+    <!--Eso es un comentario-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario:"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/iconoemail"
+        android:hint="Ingrese el usuario"
+        android:inputType="text"
+        />
+
+    <!--Eso es un comentario-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contrasena:"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/iconocontrasena"
+        android:hint="Ingrese la contrasena"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/BotonIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Inicia Sesion"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#556080"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aún no estas registrado?"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/BotonNoEstoyRegistrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrate"
+        android:layout_gravity="center"
+        android:backgroundTint="#868788"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Olvidaste tu contrasena?"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="11dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recuperar mi contrasena"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF868788"/>
+
+</LinearLayout>
